@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="assets/image-fit.css">
   <link rel="stylesheet" href="assets/place-time.css">
+  <link rel="stylesheet" href="assets/deep-time-tab.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to the case</a>
@@ -36,6 +37,7 @@
     <button role="tab" id="tab-case" aria-controls="case" aria-selected="false" data-tab="case">2. The Case</button>
     <button role="tab" id="tab-finding" aria-controls="finding" aria-selected="false" data-tab="finding">3. My Finding</button>
     <button role="tab" id="tab-sleuth" aria-controls="sleuth" aria-selected="false" data-tab="sleuth">4. Super Sleuths <small>(optional)</small></button>
+      <button role="tab" id="tab-deeptime" aria-controls="deeptime" aria-selected="false" data-tab="deeptime">Deep Time</button>
   </nav>
 </header>
 
@@ -315,7 +317,19 @@
       </div>
     </details>
   </section>
-</main>
+    <section id="deeptime" role="tabpanel" aria-labelledby="tab-deeptime" class="panel">
+      <div class="dt-open">
+        <h2>Deep Time</h2>
+        <p>Scientists say people have lived in Australia for at least 65,000 years.</p>
+        <a class="dt-open-btn" href="https://robmac10.github.io/65000-years/">Open the Deep Time investigation</a>
+        <figure class="dt-open-qr">
+          <img src="assets/deep-time-qr.png" width="200" height="240" alt="QR code with the Deep Time emblem. It opens the Deep Time investigation.">
+          <figcaption>Scan to open the Deep Time investigation, or use the button.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+  </main>
 
 <footer class="wrap">
   <p>Reopen the Record: Australian Histories</p>
