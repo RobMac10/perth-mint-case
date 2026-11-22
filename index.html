@@ -7,6 +7,8 @@
 <meta name="description" content="History Case File. The Perth Mint Swindle, 1982. What can the records prove?">
 <meta name="robots" content="noindex,nofollow">
 <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/image-fit.css">
+  <link rel="stylesheet" href="assets/place-time.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to the case</a>
@@ -100,9 +102,25 @@
       <p>This file names living people. It does not say that any living person committed the swindle, or fabricated evidence. Attribute every claim. The 2004 court quashed the convictions. It did not decide who obtained the gold. No one has been convicted of the swindle since.</p>
     </div>
 
-    <article class="witness" id="witness-mickelbergs">
+    
+
+    <section class="place-time" data-place-time="perth-mint" aria-label="Place and time">
+      <h3>Place and time</h3>
+      <p class="pt-lead"></p>
+      <div class="pt-mapcard"></div>
+      <p class="pt-maplbl" aria-live="polite"></p>
+      <div class="pt-ctl">
+        <button type="button" class="pt-play">▶ Play</button>
+        <input type="range" min="0" max="1" value="0">
+      </div>
+      <ol class="pt-tl" aria-label="Timeline of places and dates in this file"></ol>
+    </section>
+
+<article class="witness" id="witness-mickelbergs">
       <figure>
+        <button type="button" class="portrait-zoom" aria-label="Enlarge. A silhouette of two people, not a likeness, labelled Ray and Peter Mickelberg.">
         <img src="assets/silhouettes/mickelbergs.png" alt="A silhouette of two people, not a likeness, labelled Ray and Peter Mickelberg.">
+        </button>
         <figcaption>A silhouette, not a likeness.</figcaption>
       </figure>
       <div>
@@ -124,7 +142,9 @@
 
     <article class="witness" id="witness-lewandowski">
       <figure>
+        <button type="button" class="portrait-zoom" aria-label="Enlarge. A silhouette of one person, not a likeness, labelled Tony Lewandowski.">
         <img src="assets/silhouettes/lewandowski.png" alt="A silhouette of one person, not a likeness, labelled Tony Lewandowski.">
+        </button>
         <figcaption>A silhouette, not a likeness.</figcaption>
       </figure>
       <div>
@@ -146,7 +166,9 @@
 
     <article class="witness" id="witness-court">
       <figure>
+        <button type="button" class="portrait-zoom" aria-label="Enlarge. A scales symbol for the Court of Criminal Appeal, not a likeness of any person.">
         <img src="assets/silhouettes/wacca.png" alt="A scales symbol for the Court of Criminal Appeal, not a likeness of any person.">
+        </button>
         <figcaption>A symbol for the court, not a likeness of any person.</figcaption>
       </figure>
       <div>
@@ -309,5 +331,7 @@
 </div>
 
 <script src="assets/app.js"></script>
+<script src="assets/place-time.js"></script>
+
 </body>
 </html>
